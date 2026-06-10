@@ -3,8 +3,10 @@ import { useStore } from '../store/useStore';
 import {
   LayoutDashboard, Users, Package, FileText, CreditCard,
   BarChart2, Settings, LogOut, Truck, Menu, X, ChevronRight,
-  Quote
+  Quote, RefreshCw
 } from 'lucide-react';
+import { isDemoMode, resetDemoData } from '../utils/api';
+import toast from 'react-hot-toast';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -136,6 +138,26 @@ export default function Layout({ children, currentPage, onNavigate }: LayoutProp
             </span>
           </div>
         </header>
+
+        {/* Demo Banner */}
+        {isDemoMode() && (
+          <div className="bg-gradient-to-r from-blue-700 via-indigo-700 to-blue-800 text-white px-4 py-2 text-xs flex flex-col sm:flex-row items-center justify-between gap-2 shadow-md z-20 flex-shrink-0">
+            <div className="flex items-center gap-2 font-medium">
+              <span>🚀 DEMO MODE — All data displayed is automatically generated for demonstration purposes.</span>
+            </div>
+            <button
+              onClick={() => {
+                resetDemoData();
+                toast.success('Demo data refreshed successfully!');
+                setTimeout(() => window.location.reload(), 800);
+              }}
+              className="flex items-center gap-1.5 bg-white text-blue-700 px-3 py-1 rounded-lg font-bold text-[10px] uppercase hover:bg-blue-50 transition cursor-pointer"
+            >
+              <RefreshCw className="w-3 h-3" />
+              Refresh Demo Data
+            </button>
+          </div>
+        )}
 
         {/* Page content */}
         <main className="flex-1 overflow-y-auto">

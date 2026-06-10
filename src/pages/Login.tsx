@@ -28,6 +28,18 @@ export default function Login() {
     }
   };
 
+  const handleDemoLogin = async () => {
+    setError('');
+    setLoading(true);
+    const ok = await login('demo', 'demo');
+    setLoading(false);
+    if (!ok) {
+      setError('Failed to initialize demo login');
+    } else {
+      toast.success('Welcome to OSHO Transport Demo Mode!');
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-800 to-indigo-900 flex items-center justify-center p-4">
       <div className="w-full max-w-md">
@@ -105,6 +117,21 @@ export default function Login() {
               ) : (
                 'Sign In'
               )}
+            </button>
+
+            <div className="relative flex py-1 items-center">
+              <div className="flex-grow border-t border-gray-100"></div>
+              <span className="flex-shrink mx-4 text-gray-400 text-[10px] font-bold uppercase tracking-wider">Or</span>
+              <div className="flex-grow border-t border-gray-100"></div>
+            </div>
+
+            <button
+              type="button"
+              onClick={handleDemoLogin}
+              disabled={loading}
+              className="w-full bg-gradient-to-r from-blue-700 to-indigo-700 hover:from-blue-800 hover:to-indigo-800 disabled:opacity-60 text-white font-bold py-3 rounded-xl transition-all duration-200 flex items-center justify-center gap-2 text-sm shadow-lg shadow-indigo-200"
+            >
+              <Truck className="w-4.5 h-4.5" /> Try Demo Login (One-click)
             </button>
           </form>
 
