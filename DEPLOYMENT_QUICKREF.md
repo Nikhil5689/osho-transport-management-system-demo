@@ -174,7 +174,7 @@ npm start
 
 # Test
 # Open http://localhost:5000
-# Login: rishabh / Rishabh5689
+# Login: admin / adminPassword123
 # Add data → verify persists
 ```
 

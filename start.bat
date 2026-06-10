@@ -45,8 +45,8 @@ echo ✓ System Started Successfully!
 echo ========================================
 echo.
 echo Login Credentials:
-echo  Username: rishabh
-echo  Password: Rishabh5689
+echo  Username: admin
+echo  Password: adminPassword123
 echo.
 echo Open your browser:
 echo http://localhost:5173

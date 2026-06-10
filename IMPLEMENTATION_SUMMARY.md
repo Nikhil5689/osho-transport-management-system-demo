@@ -70,8 +70,8 @@ http://localhost:5173
 
 ### Login
 ```
-Username: rishabh
-Password: Rishabh5689
+Username: admin
+Password: adminPassword123
 ```
 
 ---
@@ -180,7 +180,7 @@ Result: Same login = Same data on all devices ✅
 ```
 
 ### How It Works
-1. User logs in on Device 1 with `rishabh / Rishabh5689`
+1. User logs in on Device 1 with `admin / adminPassword123`
 2. Backend authenticates and creates token
 3. Token stored in localStorage (persists)
 4. All data fetched from server and stored in Zustand
@@ -195,7 +195,7 @@ Result: Same login = Same data on all devices ✅
 
 ```
 ┌─────────────────────────────────────────┐
-│ User enters: rishabh / Rishabh5689     │
+│ User enters: admin / adminPassword123     │
 └─────────────┬───────────────────────────┘
               │
               ↓
@@ -446,8 +446,8 @@ npm run preview        # Preview production
 
 ### Login Details
 ```
-Username: rishabh
-Password: Rishabh5689
+Username: admin
+Password: adminPassword123
 ```
 
 ### URLs

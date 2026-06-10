@@ -262,7 +262,7 @@ curl https://yourdomain.com/api/health
 1. Open `https://yourdomain.com` in browser
 2. Should see login page (not blank, not 404)
 3. DevTools → Console: no errors
-4. Login with `rishabh` / `Rishabh5689`
+4. Login with `admin` / `adminPassword123`
 5. Add booking/client
 6. Refresh page → data still there
 7. Open different browser/device → login again, data synced

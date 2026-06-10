@@ -4,8 +4,8 @@
 
 ### Login Credentials
 ```
-Username: rishabh
-Password: Rishabh5689
+Username: admin
+Password: adminPassword123
 ```
 
 ### Auto-Login Feature
@@ -442,8 +442,8 @@ Password: Rishabh5689
 ## 🆘 Troubleshooting
 
 ### Can't Login
-- Check username: `rishabh` (case-insensitive)
-- Check password: `Rishabh5689` (case-sensitive)
+- Check username: `admin` (case-insensitive)
+- Check password: `adminPassword123` (case-sensitive)
 - Ensure backend server is running
 
 ### Data Not Showing

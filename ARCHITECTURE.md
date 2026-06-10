@@ -167,7 +167,7 @@ const verifyToken = (req, res, next) => {
 
 #### Example 1: Login on Device
 ```
-Device Input: username="rishabh", password="Rishabh5689"
+Device Input: username="admin", password="adminPassword123"
                     ↓
             [API Client - POST /api/login]
                     ↓
@@ -282,8 +282,8 @@ Device 2 UI shows new booking ✅
 {
   "users": [
     {
-      "id": "user_rishabh",
-      "username": "rishabh",
+      "id": "user_admin",
+      "username": "admin",
       "password": "[base64_hashed]"
     }
   ],

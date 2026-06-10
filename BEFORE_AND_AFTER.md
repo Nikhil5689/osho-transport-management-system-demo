@@ -9,7 +9,7 @@
 ┌─────────────────────────────────────┐
 │  Device: Desktop                    │
 │  URL: http://localhost:5173         │
-│  Login: rishabh / Rishabh5689       │
+│  Login: admin / adminPassword123       │
 ├─────────────────────────────────────┤
 │  ✅ Login successful                │
 │  ✅ Dashboard loads                 │
@@ -28,7 +28,7 @@
 ┌─────────────────────────────────────┐
 │  Device: Mobile Phone               │
 │  URL: http://computer-ip:5173       │
-│  Login: rishabh / Rishabh5689       │
+│  Login: admin / adminPassword123       │
 ├─────────────────────────────────────┤
 │  ✅ Login successful                │
 │  ❌ Dashboard: EMPTY!               │
@@ -87,7 +87,7 @@ Device 1          Device 2
 ┌─────────────────────────────────────┐
 │  Device: Desktop                    │
 │  URL: http://localhost:5173         │
-│  Login: rishabh / Rishabh5689       │
+│  Login: admin / adminPassword123       │
 ├─────────────────────────────────────┤
 │  ✅ Login successful                │
 │  ✅ Dashboard loads with data       │
@@ -107,7 +107,7 @@ Device 1          Device 2
 ┌─────────────────────────────────────┐
 │  Device: Mobile Phone               │
 │  URL: http://192.168.1.100:5173    │
-│  Login: rishabh / Rishabh5689       │
+│  Login: admin / adminPassword123       │
 ├─────────────────────────────────────┤
 │  ✅ Login successful                │
 │  ✅ Dashboard loads                 │

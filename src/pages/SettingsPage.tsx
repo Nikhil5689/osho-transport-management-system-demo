@@ -137,15 +137,7 @@ export default function SettingsPage() {
         </div>
       </Section>
 
-      {/* Login Info */}
-      <Section icon={Shield} title="Login Credentials">
-        <div className="bg-blue-50 rounded-xl p-4 text-sm text-blue-800">
-          <p className="font-semibold mb-1">Current Login Details:</p>
-          <p>Username: <span className="font-mono font-bold">Rishabh</span></p>
-          <p>Password: <span className="font-mono font-bold">Rishabh5689</span></p>
-          <p className="text-xs text-blue-600 mt-2">To change credentials, update the store configuration.</p>
-        </div>
-      </Section>
+
 
       {/* Save Button - Mobile */}
       <div className="fixed bottom-0 left-0 right-0 bg-white border-t border-gray-200 px-4 py-3 lg:hidden z-40">

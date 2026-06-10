@@ -21,9 +21,9 @@ const initializeData = () => {
     const defaultData = {
       users: [
         {
-          id: 'user_rishabh',
-          username: 'rishabh',
-          password: 'Rishabh5689', // Plain text password
+          id: 'user_admin',
+          username: 'admin',
+          password: 'adminPassword123', // Plain text password
         },
       ],
       clients: [],

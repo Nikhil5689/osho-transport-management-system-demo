@@ -81,15 +81,7 @@ export const authAPI = {
       return { token: 'demo-mock-token', user };
     }
 
-    // Basic auth check for demo/migration purposes
-    if (username === 'rishabh' && password === 'Rishabh5689') {
-        const user = { id: 'user_rishabh', username: 'rishabh' };
-        authUser = user;
-        localStorage.setItem('is_demo_mode', 'false');
-        localStorage.setItem('auth_token', 'supabase-mock-token');
-        localStorage.setItem('auth_user', JSON.stringify(user));
-        return { token: 'supabase-mock-token', user };
-    }
+
     
     // Attempt Supabase Auth
     const { data, error } = await supabase.auth.signInWithPassword({

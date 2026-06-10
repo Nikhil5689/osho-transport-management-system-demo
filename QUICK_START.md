@@ -58,8 +58,8 @@ Go to: **http://localhost:5173**
 
 ### Step 6: Login
 ```
-Username: rishabh
-Password: Rishabh5689
+Username: admin
+Password: adminPassword123
 ```
 
 ✅ You're in! All pages are now accessible.
@@ -85,11 +85,11 @@ http://192.168.x.x:5173  (example)
 
 1. **Open on Desktop**
    - Go to http://localhost:5173
-   - Login with: rishabh / Rishabh5689
+   - Login with: admin / adminPassword123
 
 2. **Open on Phone**
    - Go to http://YOUR_COMPUTER_IP:5173
-   - Login with: rishabh / Rishabh5689
+   - Login with: admin / adminPassword123
    - Both should show the SAME data ✅
 
 3. **Add Booking on Desktop**
@@ -174,7 +174,7 @@ start.bat              ← Windows startup script
 
 ### Login Flow
 ```
-1. User enters: rishabh / Rishabh5689
+1. User enters: admin / adminPassword123
 2. Sent to backend server for verification
 3. Backend creates authentication token
 4. Token stored in browser localStorage
@@ -232,8 +232,8 @@ All data is stored in `server-data.json`:
 {
   "users": [
     {
-      "id": "user_rishabh",
-      "username": "rishabh",
+      "id": "user_admin",
+      "username": "admin",
       "password": "[hashed]"
     }
   ],
@@ -321,8 +321,8 @@ All data is stored in `server-data.json`:
 ### Login fails
 ```
 Credentials are:
-- Username: rishabh
-- Password: Rishabh5689
+- Username: admin
+- Password: adminPassword123
 
 Make sure backend server is running!
 ```

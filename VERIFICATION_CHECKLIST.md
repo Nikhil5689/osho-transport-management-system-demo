@@ -75,25 +75,25 @@ http://localhost:5173
 ### Login Test
 **Credentials:**
 ```
-Username: rishabh
-Password: Rishabh5689
+Username: admin
+Password: adminPassword123
 ```
 
 ### Test Case 1: Correct Credentials
-1. [ ] Enter username: `rishabh`
-2. [ ] Enter password: `Rishabh5689`
+1. [ ] Enter username: `admin`
+2. [ ] Enter password: `adminPassword123`
 3. [ ] Click "Sign In"
 4. [ ] **Result:** Redirected to Dashboard ✅
 
 ### Test Case 2: Wrong Password
-1. [ ] Enter username: `rishabh`
+1. [ ] Enter username: `admin`
 2. [ ] Enter password: `wrongpassword`
 3. [ ] Click "Sign In"
 4. [ ] **Result:** Error message appears ✅
 
 ### Test Case 3: Wrong Username
 1. [ ] Enter username: `wronguser`
-2. [ ] Enter password: `Rishabh5689`
+2. [ ] Enter password: `adminPassword123`
 3. [ ] Click "Sign In"
 4. [ ] **Result:** Error message appears ✅
 
@@ -367,7 +367,7 @@ Password: Rishabh5689
 
 ### Desktop Setup
 1. [ ] Open http://localhost:5173
-2. [ ] Login with `rishabh / Rishabh5689`
+2. [ ] Login with `admin / adminPassword123`
 3. [ ] **Result:** Dashboard loads with data ✅
 4. [ ] Create new client: "Device Sync Test"
 5. [ ] Create booking for this client
@@ -378,7 +378,7 @@ Password: Rishabh5689
 1. [ ] On phone/tablet, open: `http://YOUR_COMPUTER_IP:5173`
    - Example: `http://192.168.1.100:5173`
 2. [ ] **Result:** Login page appears ✅
-3. [ ] Login with same credentials: `rishabh / Rishabh5689`
+3. [ ] Login with same credentials: `admin / adminPassword123`
 4. [ ] **Result:** Dashboard loads ✅
 5. [ ] Check Clients page
 6. [ ] **Result:** "Device Sync Test" client visible ✅
